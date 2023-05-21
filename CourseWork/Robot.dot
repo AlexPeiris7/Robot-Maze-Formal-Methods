@@ -1,0 +1,78 @@
+digraph history {
+graph [nodesep=1.5, ranksep=1.5];
+0 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="width = 7,height = 5,x_axis_range = \{1,2,3,4,5,6,7\},\ny_axis_range = \{1,2,3,4,5\},maze = \{(1&#8614;1),(1&#8614;2),(1&#8614;3),(1&#8614;4),(1&#8614;5),(2&#8614;1),(2&#8614;2),(2&#8614;3),(2&#8614;4),(2&#8614;5),(3&#8614;1),(3&#8614;2),(3&#8614;3),(3&#8614;4),(3&#8614;5),(4&#8614;1),(4&#8614;2),(4&#8614;3),(4&#8614;4),(4&#8614;5),(5&#8614;1),(5&#8614;2),(5&#8614;3),(5&#8614;4),(5&#8614;5),(6&#8614;1),(6&#8614;2),(6&#8614;3),(6&#8614;4),(6&#8614;5),(7&#8614;1),(7&#8614;2),(7&#8614;3),(7&#8614;4),(7&#8614;5)\},internal_maze_walls = \{(1&#8614;3),(2&#8614;1),(2&#8614;3),(2&#8614;5),(3&#8614;3),(4&#8614;2),(4&#8614;3),(4&#8614;4),(6&#8614;1),(6&#8614;2),(6&#8614;4),(7&#8614;4)\},\nentrance_square(1) = 1,exit_square(1) = 5"];
+
+1 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (1&#8614;1),previousPosition = (1&#8614;1),robotXPosition = 1,\nrobotYPosition = 1,squaresVisited(1) = (1&#8614;1)"];
+
+2 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (1&#8614;2),previousPosition = (1&#8614;1),robotXPosition = 1,\nrobotYPosition = 2,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2)"];
+
+4 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (2&#8614;2),previousPosition = (1&#8614;2),robotXPosition = 2,\nrobotYPosition = 2,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2)"];
+
+5 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (3&#8614;2),previousPosition = (2&#8614;2),robotXPosition = 3,\nrobotYPosition = 2,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2)"];
+
+8 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (3&#8614;1),previousPosition = (3&#8614;2),robotXPosition = 3,\nrobotYPosition = 1,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1)"];
+
+12 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (4&#8614;1),previousPosition = (3&#8614;1),robotXPosition = 4,\nrobotYPosition = 1,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1)"];
+
+14 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (5&#8614;1),previousPosition = (4&#8614;1),robotXPosition = 5,\nrobotYPosition = 1,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1)"];
+
+17 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (5&#8614;2),previousPosition = (5&#8614;1),robotXPosition = 5,\nrobotYPosition = 2,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2)"];
+
+20 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (5&#8614;3),previousPosition = (5&#8614;2),robotXPosition = 5,\nrobotYPosition = 3,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3)"];
+
+23 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (5&#8614;4),previousPosition = (5&#8614;3),robotXPosition = 5,\nrobotYPosition = 4,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4)"];
+
+27 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (5&#8614;5),previousPosition = (5&#8614;4),robotXPosition = 5,\nrobotYPosition = 5,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5)"];
+
+31 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (6&#8614;5),previousPosition = (5&#8614;5),robotXPosition = 6,\nrobotYPosition = 5,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5),\nsquaresVisited(12) = (6&#8614;5)"];
+
+37 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (3&#8614;5),previousPosition = (6&#8614;5),robotXPosition = 3,\nrobotYPosition = 5,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5),\nsquaresVisited(12) = (6&#8614;5),squaresVisited(13) = (3&#8614;5)"];
+
+38 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (3&#8614;4),previousPosition = (3&#8614;5),robotXPosition = 3,\nrobotYPosition = 4,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5),\nsquaresVisited(12) = (6&#8614;5),squaresVisited(13) = (3&#8614;5),squaresVisited(14) = (3&#8614;4)"];
+
+42 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (2&#8614;4),previousPosition = (3&#8614;4),robotXPosition = 2,\nrobotYPosition = 4,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5),\nsquaresVisited(12) = (6&#8614;5),squaresVisited(13) = (3&#8614;5),squaresVisited(14) = (3&#8614;4),\nsquaresVisited(15) = (2&#8614;4)"];
+
+45 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPosition = (1&#8614;4),previousPosition = (2&#8614;4),robotXPosition = 1,\nrobotYPosition = 4,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5),\nsquaresVisited(12) = (6&#8614;5),squaresVisited(13) = (3&#8614;5),squaresVisited(14) = (3&#8614;4),\nsquaresVisited(15) = (2&#8614;4),squaresVisited(16) = (1&#8614;4)"];
+
+47 [shape=doubleoctagon, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPosition = (1&#8614;5),previousPosition = (1&#8614;4),robotXPosition = 1,\nrobotYPosition = 5,squaresVisited(1) = (1&#8614;1),squaresVisited(2) = (1&#8614;2),\nsquaresVisited(3) = (2&#8614;2),squaresVisited(4) = (3&#8614;2),squaresVisited(5) = (3&#8614;1),\nsquaresVisited(6) = (4&#8614;1),squaresVisited(7) = (5&#8614;1),squaresVisited(8) = (5&#8614;2),\nsquaresVisited(9) = (5&#8614;3),squaresVisited(10) = (5&#8614;4),squaresVisited(11) = (5&#8614;5),\nsquaresVisited(12) = (6&#8614;5),squaresVisited(13) = (3&#8614;5),squaresVisited(14) = (3&#8614;4),\nsquaresVisited(15) = (2&#8614;4),squaresVisited(16) = (1&#8614;4),squaresVisited(17) = (1&#8614;5)"];
+
+root [shape=invtriangle, color="#99BF38", fontsize=12, penwidth=2, label="root"];
+
+root -> 0 [style = dotted, color = black, label="SETUP_CONSTANTS", fontsize=12];
+
+0 -> 1 [color = "#006391", label="INITIALISATION", fontsize=12];
+
+1 -> 2 [color = "#006391", label="moveNorth--\>Moved_North", fontsize=12];
+
+2 -> 4 [color = "#006391", label="moveEast--\>Moved_East", fontsize=12];
+
+4 -> 5 [color = "#006391", label="moveEast--\>Moved_East", fontsize=12];
+
+5 -> 8 [color = "#006391", label="moveSouth--\>Moved_South", fontsize=12];
+
+8 -> 12 [color = "#006391", label="moveEast--\>Moved_East", fontsize=12];
+
+12 -> 14 [color = "#006391", label="moveEast--\>Moved_East", fontsize=12];
+
+14 -> 17 [color = "#006391", label="moveNorth--\>Moved_North", fontsize=12];
+
+17 -> 20 [color = "#006391", label="moveNorth--\>Moved_North", fontsize=12];
+
+20 -> 23 [color = "#006391", label="moveNorth--\>Moved_North", fontsize=12];
+
+23 -> 27 [color = "#006391", label="moveNorth--\>Moved_North", fontsize=12];
+
+27 -> 31 [color = "#006391", label="moveEast--\>Moved_East", fontsize=12];
+
+31 -> 37 [color = "#006391", label="teleport(3,5)--\>Teleported", fontsize=12];
+
+37 -> 38 [color = "#006391", label="moveSouth--\>Moved_South", fontsize=12];
+
+38 -> 42 [color = "#006391", label="moveWest--\>Moved_West", fontsize=12];
+
+42 -> 45 [color = "#006391", label="moveWest--\>Moved_West", fontsize=12];
+
+45 -> 47 [color = "#006391", label="moveNorth--\>Moved_North", fontsize=12];
+
+
+}
